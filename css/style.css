@@ -1,3 +1,4 @@
+
 /* Add a black background color to the top navigation */
 .topnav {
 background-color: #44003C;
@@ -34,34 +35,45 @@ font-family: "Comfortaa", sans-serif;
 }
 
 body{
-background: linear-gradient(#FFD7F6, #F7D9FF)
+background: linear-gradient(#F7D9FF, #D150FF) ;
+min-height: 100vh;
 }
 
 aside {
 position: absolute;
-right: 400px;
+right: 100px;
 top: 150px;
 width: 400px;
 border: 3px solid #73AD21;
 padding: 10px;
+background-color: #FDF4FF;
 font-family: "Comfortaa",sans-serif;
 }
 
 #legal{
 position: absolute;
-right: 400px;
+right: 50px;
 top: 200px;
 width: 400px;
+background-color: #FDF4FF;
 border: 3px solid #73AD21;
 padding: 10px;
 }
 
 #list{
 position: absolute;
-right: 400px;
+right: 50px;
 top: 600px;
 width: 400px;
 border: 3px solid #73AD21;
 padding: 10px;
+background-color: #FDF4FF;
 font-family: "Comfortaa", sans-serif;
 }
+
+.card{
+    float: left;
+    margin: 10px;
+    padding: 10px 3px;
+    width: calc( 100% / 5 - 10px);
+    } 
