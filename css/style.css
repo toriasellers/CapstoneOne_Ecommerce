@@ -1,6 +1,6 @@
 /* Add a black background color to the top navigation */
 .topnav {
-background-color: #333;
+background-color: #44003C;
 overflow: hidden;
 font-family: "Comfortaa", sans-serif;
 }
@@ -17,13 +17,13 @@ font-size: 17px;
 
 /* Change the color of links on hover */
 .topnav a:hover {
-background-color: #ddd;
+background-color: #F7D9FF;
 color: black;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-background-color: #04AA6D;
+background-color: #CA00B6;
 color: white;
 }
 
@@ -38,12 +38,13 @@ background: linear-gradient(#FFD7F6, #F7D9FF)
 }
 
 aside {
-width: 30%;
-padding-left: 15px;
-margin-left: 15px;
-float: right;
-font-style: italic;
-background-color: #D7FFF7;
+position: absolute;
+right: 400px;
+top: 150px;
+width: 400px;
+border: 3px solid #73AD21;
+padding: 10px;
+font-family: "Comfortaa",sans-serif;
 }
 
 #legal{
@@ -53,4 +54,14 @@ top: 200px;
 width: 400px;
 border: 3px solid #73AD21;
 padding: 10px;
+}
+
+#list{
+position: absolute;
+right: 400px;
+top: 600px;
+width: 400px;
+border: 3px solid #73AD21;
+padding: 10px;
+font-family: "Comfortaa", sans-serif;
 }
