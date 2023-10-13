@@ -1,38 +1,39 @@
 .topnav {
-background-color: #000;
-overflow: hidden;
-font-family: "Comfortaa", sans-serif;
+    background-color: #000;
+    overflow: hidden;
+    font-family: "Comfortaa", sans-serif;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
-float: left;
-color: #f2f2f2;
-text-align: center;
-padding: 14px 16px;
-text-decoration: none;
-font-size: 17px;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-background-color: #F7D9FF;
-color: black;
+    background-color: #F7D9FF;
+    color: black;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-background-color: #E0002B;
-color: white;
+    background-color: #E0002B;
+    color: white;
 }
 
-body{
-background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(253,45,45,1) 100%);
+body {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(253, 45, 45, 1) 100%);
 }
 
-.card{
-float: left;
-margin: 10px;
-padding: 10px 3px;
-width: calc( 100% / 5 - 10px);
-} 
+.card {
+    float: left;
+    margin: 10px;
+    padding: 10px 3px;
+    width: calc(100% / 5 - 10px);
+    background-color: #FFDDD8;
+}

@@ -1,79 +1,91 @@
-
 /* Add a black background color to the top navigation */
 .topnav {
-background-color: #44003C;
-overflow: hidden;
-font-family: "Comfortaa", sans-serif;
+    background-color: #44003C;
+    overflow: hidden;
+    font-family: "Comfortaa", sans-serif;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
-float: left;
-color: #f2f2f2;
-text-align: center;
-padding: 14px 16px;
-text-decoration: none;
-font-size: 17px;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-background-color: #F7D9FF;
-color: black;
+    background-color: #F7D9FF;
+    color: black;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-background-color: #CA00B6;
-color: white;
+    background-color: #CA00B6;
+    color: white;
 }
 
 
 
-p, h1{
-font-family: "Comfortaa", sans-serif;
+p,
+h1 {
+    font-family: "Comfortaa", sans-serif;
 }
 
-body{
-background: linear-gradient(#F7D9FF, #D150FF) ;
-min-height: 100vh;
+body {
+    background: linear-gradient(#F7D9FF, #D150FF);
+    min-height: 100vh;
 }
 
 aside {
-position: absolute;
-right: 100px;
-top: 150px;
-width: 400px;
-border: 3px solid #73AD21;
-padding: 10px;
-background-color: #FDF4FF;
-font-family: "Comfortaa",sans-serif;
+    position: absolute;
+    right: 100px;
+    top: 150px;
+    width: 400px;
+    border: 3px solid #D2008F;
+    padding: 10px;
+    background-color: #fae7f1;
+    font-family: "Comfortaa", sans-serif;
 }
 
-#legal{
-right: 50px;
-top: 200px;
-width: 400px;
-background-color: #FDF4FF;
-border: 3px solid #73AD21;
-padding: 10px;
-margin: 10px;
+#legal {
+    right: 50px;
+    top: 200px;
+    width: 400px;
+    background-color: #fae7f1;
+    border: 3px solid #D2008F;
+    padding: 10px;
+    margin: 10px;
 }
 
-#list{
-right: 50px;
-top: 600px;
-width: 400px;
-border: 3px solid #73AD21;
-padding: 10px;
-background-color: #FDF4FF;
-font-family: "Comfortaa", sans-serif;
-margin: 10px;
+#list {
+    right: 50px;
+    top: 600px;
+    width: 400px;
+    border: 3px solid #D2008F;
+    padding: 10px;
+    background-color: #fae7f1;
+    font-family: "Comfortaa", sans-serif;
+    margin: 10px;
 }
 
-.card{
+.card {
     float: left;
     margin: 10px;
     padding: 10px 3px;
-    width: calc( 100% / 5 - 10px);
-    } 
+    width: calc(100% / 5 - 10px);
+    background-color: #fae7f1;
+}
+
+table,
+th,
+td {
+    border: 1px solid #44003C;
+    font-family: "Comfortaa" sans-serif;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+}
